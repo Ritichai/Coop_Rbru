@@ -20,7 +20,7 @@ $this->title = Yii::t('app', ' ');
    <div class="box-body">
        
        <div class="row">
-            <?php echo $this->render('_menu', [ 'url' => '/report/company-name','label' => 'รายชื่อสถานประกอบการทั้งหมด' ]); ?>
+            <?php echo $this->render('_menu', [ 'url' => '/coop/Coop_Rbru/backend/web/index.php?r=report/company-name','label' => 'รายชื่อสถานประกอบการทั้งหมด' ]); ?>
             <?php echo $this->render('_menu', [ 'url' => '/report/detail-position','label' => 'รายชื่อสถานประกอบการที่เปิดรับนักศึกษาสหกิจศึกษา' ]); ?>
            <?php echo $this->render('_menu', [ 'url' => '/report/sub-position','label' => 'ตำแหน่งงานที่นักศึกษาเลือก' ]); ?>
             
